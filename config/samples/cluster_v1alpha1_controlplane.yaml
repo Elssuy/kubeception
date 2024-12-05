@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/created-by: kubeception-operator
   name: demo-control-plane
 spec:
-  version: v1.27.5
+  version: v1.30.7
   loadbalancer:
     name: "kube-apiserver"
     port: 6443
